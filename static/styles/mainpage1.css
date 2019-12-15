@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  background-image: url('https://images.pexels.com/photos/700974/pexels-photo-700974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  font-family: 'Helvetica';
+}
+
+.login {
+  width: 400px;
+  margin: 100px;
+  font-size: 16px;
+  margin-top: 140px;
+}
+
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.login-header {
+  background: black;
+  opacity: 1.0;
+  padding: 30px;
+  font-size: 2em;
+
+  text-align: left;
+  color: white;
+}
+
+.login-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 0px;
+  border-style: solid;
+  padding: 15px;
+  outline: 0;
+  font-family: arial;
+  font-size: 0.95em;
+}
+
+.login input[type="date"] {
+     -webkit-align-items: center;
+     display: -webkit-inline-flex;
+     outline: none;
+     background:white;
+     font-family: monospace;
+     overflow: hidden;
+     padding: 1px;
+     -webkit-padding-start: 3px;
+}
+
+.login input[type="time"] {
+     -webkit-align-items: center;
+     display: -webkit-inline-flex;
+     outline: none;
+     background:white;
+     font-family: monospace;
+     overflow: hidden;
+     padding: 1px;
+     -webkit-padding-start: 3px;
+}
+
+.login input[type="submit"] {
+  background: black;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #386d7d;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: transparent;
+}
+
+.login select {
+
+    -moz-appearance: button;
+	display: -webkit-inline-flex;
+	font-family: monospace;
+	font-size: 17px;
+	-moz-user-select: none;
+	-moz-padding-end: 20px;
+	-moz-padding-start: 13px;
+	
+
+}
+
