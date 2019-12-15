@@ -159,5 +159,5 @@ def result():
     return flask.render_template('result.html',prediction=prediction, originAirportMinusO=originAirportMinusO,arrivalAirport=arrivalAirport)
     
 
-app.run(threaded=True, port=5000)
+app.run()
 
