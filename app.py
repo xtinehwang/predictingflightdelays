@@ -158,6 +158,6 @@ def result():
         
     return flask.render_template('result.html',prediction=prediction, originAirportMinusO=originAirportMinusO,arrivalAirport=arrivalAirport)
     
-
-app.run()
+if __name__ == "__main__":
+    app.run(debug=True)
 
